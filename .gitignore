@@ -1,0 +1,6 @@
+.idea
+.vscode
+vendor
+Dcrlibwallet.framework
+hdflibwallet.aar
+hdflibwallet-sources.jar
