@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestDcrlibwallet(t *testing.T) {
+func TestHdflibwallet(t *testing.T) {
 	RegisterFailHandler(Fail)
 	rand.Seed(GinkgoRandomSeed())
-	RunSpecs(t, "Dcrlibwallet Suite")
+	RunSpecs(t, "Hdflibwallet Suite")
 }
