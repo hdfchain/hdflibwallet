@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/hdfchain/hdflibwallet/workflows/Build/badge.svg)](https://github.com/hdfchain/hdflibwallet/actions)
 
-A Decred wallet library written in golang for [dcrwallet](https://github.com/decred/dcrwallet)
+A Hdfchain wallet library written in golang for [dcrwallet](https://github.com/decred/dcrwallet)
 
 ## Build Dependencies
 

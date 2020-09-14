@@ -408,7 +408,7 @@ func (mw *MultiWallet) saveNewWallet(wallet *Wallet, setupWallet func() error) (
 		return nil, errors.New(ErrExist)
 	}
 
-	if mw.isConnectedToHdfchainNetwork() {
+	if mw.IsConnectedToHdfchainNetwork() {
 		return nil, errors.New(ErrSyncAlreadyInProgress)
 	}
 	// Perform database save operations in batch transaction
@@ -481,7 +481,7 @@ func (mw *MultiWallet) RenameWallet(walletID int, newName string) error {
 
 func (mw *MultiWallet) DeleteWallet(walletID int, privPass []byte) error {
 
-	if mw.isConnectedToHdfchainNetwork() {
+	if mw.IsConnectedToHdfchainNetwork() {
 		return errors.New(ErrSyncAlreadyInProgress)
 	}
 
