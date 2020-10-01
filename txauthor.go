@@ -239,7 +239,7 @@ func (tx *TxAuthor) constructTransaction() (*txauthor.AuthoredTx, error) {
 	}
 
 	if changeSource == nil {
-		// dcrwallet should ordinarily handle cases where a nil changeSource
+		// hdfwallet should ordinarily handle cases where a nil changeSource
 		// is passed to `wallet.NewUnsignedTransaction` but the changeSource
 		// generated there errors on internal gap address limit exhaustion
 		// instead of wrapping around to a previously returned address.

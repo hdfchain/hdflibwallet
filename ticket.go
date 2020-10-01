@@ -14,7 +14,7 @@ import (
 	"github.com/decred/dcrd/dcrutil/v2"
 	"github.com/decred/dcrd/wire"
 	"github.com/decred/dcrwallet/errors/v2"
-	"github.com/decred/dcrwallet/rpc/client/dcrd"
+	"github.com/decred/dcrwallet/rpc/client/hdfd"
 	w "github.com/decred/dcrwallet/wallet/v3"
 	"github.com/decred/dcrwallet/wallet/v3/txrules"
 )
@@ -23,8 +23,8 @@ import (
 func (wallet *Wallet) StakeInfo() (*w.StakeInfoData, error) {
 	ctx := wallet.shutdownContext()
 	if n, err := wallet.internal.NetworkBackend(); err == nil {
-		var rpc *dcrd.RPC
-		if client, ok := n.(*dcrd.RPC); ok {
+		var rpc *hdfd.RPC
+		if client, ok := n.(*hdfd.RPC); ok {
 			rpc = client
 		}
 
@@ -129,9 +129,9 @@ func (wallet *Wallet) getTickets(req *GetTicketsRequest) (ticketInfos []*TicketI
 		return (targetTicketCount > 0) && (len(ticketInfos) >= targetTicketCount), nil
 	}
 
-	var rpc *dcrd.RPC
+	var rpc *hdfd.RPC
 	if n, err := wallet.internal.NetworkBackend(); err == nil {
-		if client, ok := n.(*dcrd.RPC); ok {
+		if client, ok := n.(*hdfd.RPC); ok {
 			rpc = client
 		}
 	}

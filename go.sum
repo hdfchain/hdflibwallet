@@ -148,8 +148,8 @@ github.com/decred/dcrwallet/p2p/v2 v2.0.0 h1:YFnzIhJITUmFcTU1PzuJ0Wenz/1s8ijDtu0
 github.com/decred/dcrwallet/p2p/v2 v2.0.0/go.mod h1:5/sskXRO69fGsuBcCekirXZCC/cZ5MwjNmj/wEPoLe0=
 github.com/decred/dcrwallet/pgpwordlist v1.0.0 h1:H7Y3+yRZq7PXMPfpKLMnY5TKTjTWhc0oJmyN7v8tC/M=
 github.com/decred/dcrwallet/pgpwordlist v1.0.0/go.mod h1:Fek3uYn+9DnEFIreA/8PnTIXUl2lBO64JpEBkL9BXtk=
-github.com/decred/dcrwallet/rpc/client/dcrd v1.0.0 h1:xRx6XdG3IFWDVL4XMBzy41dz6Gtff/suzQggSR6uKyw=
-github.com/decred/dcrwallet/rpc/client/dcrd v1.0.0/go.mod h1:qrJri+p+cn+obQ8nkW5hTtagPcOnCqKPGBq1t02gBc0=
+github.com/decred/dcrwallet/rpc/client/hdfd v1.0.0 h1:xRx6XdG3IFWDVL4XMBzy41dz6Gtff/suzQggSR6uKyw=
+github.com/decred/dcrwallet/rpc/client/hdfd v1.0.0/go.mod h1:qrJri+p+cn+obQ8nkW5hTtagPcOnCqKPGBq1t02gBc0=
 github.com/decred/dcrwallet/rpc/jsonrpc/types v1.0.0/go.mod h1:k+IOPnUY0YqlwhSDhczzaUN17NX/gMtztwl3UxKgVZY=
 github.com/decred/dcrwallet/rpc/jsonrpc/types v1.1.0/go.mod h1:xUT7XXATLOzE0pwwmvgfRWtZdrB+PsWFilo+jkH5/Ig=
 github.com/decred/dcrwallet/rpc/jsonrpc/types v1.3.0 h1:yCxtFqK7X6GvZWQzHXjCwoGCy9YVe3tGEwxCjW5rYQk=
@@ -206,8 +206,8 @@ github.com/onsi/gomega v1.5.0/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1Cpa
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/raedahgroup/dcrwallet/wallet/v3 v3.2.1-badger h1:VeMaBDPPCLtt/gT7irdR+v26LhC7m6LWdiGGJJBEVIE=
-github.com/raedahgroup/dcrwallet/wallet/v3 v3.2.1-badger/go.mod h1:SJ+++gtMdcUeqMv6iIO3gVGlGJfM+4iY2QSaAakhbUw=
+github.com/raedahgroup/hdfwallet/wallet/v3 v3.2.1-badger h1:VeMaBDPPCLtt/gT7irdR+v26LhC7m6LWdiGGJJBEVIE=
+github.com/raedahgroup/hdfwallet/wallet/v3 v3.2.1-badger/go.mod h1:SJ+++gtMdcUeqMv6iIO3gVGlGJfM+4iY2QSaAakhbUw=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=

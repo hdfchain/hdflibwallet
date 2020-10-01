@@ -21,7 +21,7 @@ require (
 	github.com/decred/dcrwallet/errors v1.1.0
 	github.com/decred/dcrwallet/errors/v2 v2.0.0
 	github.com/decred/dcrwallet/p2p/v2 v2.0.0
-	github.com/decred/dcrwallet/rpc/client/dcrd v1.0.0
+	github.com/decred/dcrwallet/rpc/client/hdfd v1.0.0
 	github.com/decred/dcrwallet/ticketbuyer/v4 v4.0.0
 	github.com/decred/dcrwallet/wallet/v3 v3.2.1-badger
 	github.com/decred/dcrwallet/walletseed v1.0.1
@@ -45,7 +45,7 @@ require (
 
 replace (
 	decred.org/dcrwallet => decred.org/dcrwallet v1.2.3-0.20191024200307-d273b5687adf
-	github.com/decred/dcrwallet/wallet/v3 => github.com/raedahgroup/dcrwallet/wallet/v3 v3.2.1-badger
+	github.com/decred/dcrwallet/wallet/v3 => github.com/raedahgroup/hdfwallet/wallet/v3 v3.2.1-badger
 	github.com/hdfchain/hdflibwallet/spv => ./spv
 )
 
